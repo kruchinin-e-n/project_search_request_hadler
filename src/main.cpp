@@ -52,5 +52,9 @@ int main() {
               << ", rating = " << document.rating
               << " }" << std::endl;
   }
+
+  std::string res;
+  std::getline(std::cin, res);
+  
   return 0;
 }
